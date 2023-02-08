@@ -6316,28 +6316,28 @@
     justify-content: space-around;
   }
   #products .img-boxing1 span::after {
-    padding-left: 200px;
+    padding-left: 100px;
   }
   #products .img-boxing2 span::after {
-    padding-left: 200px;
+    padding-left: 100px;
   }
   #products .img-boxing3 span::after {
-    padding-left: 200px;
+    padding-left: 100px;
   }
   #products .img-boxing4 span::after {
-    padding-left: 200px;
+    padding-left: 100px;
   }
   #products .img-boxing5 span::after {
-    padding-left: 200px;
+    padding-left: 100px;
   }
   #products .img-boxing6 span::after {
-    padding-left: 200px;
+    padding-left: 100px;
   }
   #products .img-boxing7 span::after {
-    padding-left: 200px;
+    padding-left: 100px;
   }
   #products .img-boxing8 span::after {
-    padding-left: 200px;
+    padding-left: 100px;
   }
   #sale {
     width: 100%;
@@ -6415,17 +6415,19 @@
   }
   #footer .son .copy p {
     font-size: 12px;
+    display: none;
   }
   #footer .son .cart img {
     position: absolute;
     left: 11%;
     font-size: 12px;
-  }
-  #aye {
-    height: 39vh;
+    padding-top: 35px;
   }
 }
 @media (min-width: 576px) and (max-width: 768px) {
+  header {
+    display: none;
+  }
   #main {
     width: 100%;
     margin: auto;
@@ -6580,8 +6582,35 @@
   #products .img-boxing8 span::after {
     padding-left: 0px;
   }
+  #sale .boxing1 .text-box p::after,
+  #sale .boxing1 .text-box2 p::after,
+  #sale .boxing1 .text-box3 p::after,
+  #sale .boxing1 .text-box4 p::after,
+  #sale .boxing2 .text-box p::after,
+  #sale .boxing2 .text-box2 p::after,
+  #sale .boxing2 .text-box3 p::after,
+  #sale .boxing2 .text-box4 p::after,
+  #sale .boxing3 .text-box p::after,
+  #sale .boxing3 .text-box2 p::after,
+  #sale .boxing3 .text-box3 p::after,
+  #sale .boxing3 .text-box4 p::after,
+  #sale .boxing4 .text-box p::after,
+  #sale .boxing4 .text-box2 p::after,
+  #sale .boxing4 .text-box3 p::after,
+  #sale .boxing4 .text-box4 p::after {
+    padding-left: 50px;
+  }
+  #header .header1 {
+    display: none;
+  }
+  #header .header2 {
+    display: none;
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+  #header {
+    display: none;
+  }
   #main {
     width: 100%;
     margin: auto;
